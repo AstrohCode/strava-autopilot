@@ -3,8 +3,8 @@
   "activeHours": { "start": "06:30", "end": "22:00" },
   "unitSystem": "mi",
   "weekStart": "monday",
-  "maxHr": 190,
-  "paceRange": { "fastest": "6:15", "slowest": "7:45" },
+  "maxHr": 203,
+  "paceRange": { "fastest": "5:50", "slowest": "7:00" },
   "defaultRunNames": ["Morning Run", "Afternoon Run", "Evening Run", "Night Run", "Lunch Run"],
   "retryPolicy": { "lapRetryIntervalSeconds": 60, "lapRetryMaxMinutes": 30, "maxReadsPerRun": 90 },
   "features": { "weekTotals": true }
