@@ -28,12 +28,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Ensure settings.json
-        run: |
-          if [ ! -f autopilot/settings.json ]; then
-            cp autopilot/settings.example.json autopilot/settings.json
-          fi
-
       - name: Run autopilot
         env:
           STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
