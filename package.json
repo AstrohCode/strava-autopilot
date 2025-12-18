@@ -1,0 +1,13 @@
+{
+  "name": "strava-autopilot",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint autopilot/run.js",
+    "start": "node autopilot/run.js"
+  },
+  "dependencies": {
+    "luxon": "^3.5.0",
+    "tweetnacl": "^1.0.3"
+  }
+}
