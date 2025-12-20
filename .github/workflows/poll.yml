@@ -2,7 +2,11 @@ name: Strava Autopilot
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # every 5 minutes
+    # Active hours 06:30-22:00 PST (UTC-8). DST will shift the local window by +1h.
+    - cron: "30-59/5 14 * * *"
+    - cron: "*/5 15-23 * * *"
+    - cron: "*/5 0-5 * * *"
+    - cron: "0 6 * * *"
   workflow_dispatch: {}
 
 permissions:
